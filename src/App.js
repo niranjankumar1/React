@@ -1,7 +1,14 @@
 import "./App.css";
+import Dashboard from "./components/Dashboard";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <Navbar />
+      <Dashboard />
+    </div>
+  );
 };
 
 export default App;
