@@ -1,9 +1,11 @@
 .navbar {
     padding: 20px 30px ;
+    background-color: white;
 }
 
 .navbarButton {
     position: relative;
+    background-color: white;
 }
 
 .groupButton {
@@ -19,7 +21,7 @@
 }
 
 .dropDown {
-    position: relative;
+    position: absolute;
     background-color: #fdfdfd;
     width: 250px;
     display: flex;
@@ -27,10 +29,11 @@
     justify-content: space-between;
     gap: 10px;
     padding: 5px;
-    margin: 10px 5px 5px 5px;
+    margin: 10px 5px 5px 0px;
     border: 1px solid gray;
     border-radius: 7px;
     box-shadow: 2px 2px silver;
+    z-index: 10;
 }
 
 .group {
